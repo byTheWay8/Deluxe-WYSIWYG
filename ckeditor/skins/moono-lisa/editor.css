@@ -178,7 +178,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
     width: 120px;
     height: 100px;
     overflow: hidden;
-    background-color: red;
+    background-color: #282828;
     border: 1px solid #d1d1d1
 }
 
@@ -326,6 +326,7 @@ a.cke_colormore {
     border: #fff 1px solid;
     padding: 3px;
     display: block;
+    color: #fff;
     cursor: pointer
 }
 
@@ -335,6 +336,10 @@ a.cke_colorauto {
     margin-bottom: 6px;
     height: 26px;
     line-height: 26px
+}
+
+.cke_colorauto table {
+    background-color: #282828;
 }
 
 a.cke_colormore {
